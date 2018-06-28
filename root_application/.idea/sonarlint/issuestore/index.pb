@@ -1,0 +1,25 @@
+
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+u
+Eapp/src/main/java/ru/abdulmadzhidov/rootapplication/APIInterface.java,9/b/9b2363077e9a5f268399e3c98c88ea379fccea93
+]
+-app/src/main/res/layout/activity_register.xml,6/b/6b9b12c7f310575e3ba8779b7acd1ae20f5a2442
+y
+Iapp/src/main/java/ru/abdulmadzhidov/rootapplication/RegisterActivity.java,0/c/0cce1a8e1dbab945dff7f1a57e0be036ed9ac71a
+R
+"app/src/main/res/values/styles.xml,f/7/f79cc2688e29fcbc286fda14ae07b27c9e83690f
+Y
+)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
+ƒ
+Sapp/src/main/java/ru/abdulmadzhidov/rootapplication/model/ClientAccessResponse.java,d/4/d457172d32f8e593075b955c719eebe1884c050f
+s
+Capp/src/main/java/ru/abdulmadzhidov/rootapplication/model/User.java,3/b/3beee37d4e4b8f4fd844840c4dd8d54b8034f11b
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+‚
+Rapp/src/main/java/ru/abdulmadzhidov/rootapplication/model/ClientAccessRequest.java,c/3/c36f7f4e78083c1a288ffaa09cc4b0b4491a7c84
+r
+Bapp/src/main/java/ru/abdulmadzhidov/rootapplication/APIClient.java,1/f/1f94413124df7a276ef5e70e612f5300010b4e42
+u
+Eapp/src/main/java/ru/abdulmadzhidov/rootapplication/MainActivity.java,e/6/e6aa47f7b88235a777f66b523612fc1490df54dc

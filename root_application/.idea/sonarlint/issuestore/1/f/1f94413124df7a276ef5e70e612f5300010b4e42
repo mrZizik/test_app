@@ -1,0 +1,5 @@
+
+ssquid:S1450"WRemove the "retrofit" field and declare it as a local variable in the relevant methods.(ƒ¼ò8İĞÅ³Ä,
+Nsquid:S1444"2Make this "public static apiInterface" field final(ìŠÓ8İĞÅ³Ä,
+‹"squid:ClassVariableVisibilityCheck"XMake apiInterface a static final constant or non-public and provide accessors if needed.(ìŠÓ8İĞÅ³Ä,
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ÍÀÅ8İĞÅ³Ä,

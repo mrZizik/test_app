@@ -1,0 +1,8 @@
+
+hsquid:S1192"GDefine a constant instead of duplicating this literal "shared" 5 times.(Ø×Ò€üÿÿÿÿ8•©ù²Ä,
+jsquid:S1192"NDefine a constant instead of duplicating this literal "client_secret" 3 times.(¯Àò—8•©ù²Ä,
+gsquid:S1192"FDefine a constant instead of duplicating this literal "scope" 3 times.(Ìð†Áþÿÿÿÿ8•©ù²Ä,
+gsquid:S1192"FDefine a constant instead of duplicating this literal "token" 3 times.(Ø×Ò€üÿÿÿÿ8•©ù²Ä,
+fsquid:S1192"JDefine a constant instead of duplicating this literal "client_id" 3 times.(œÊ°ž8•©ù²Ä,
+7squid:S3626"Remove this redundant jump.(ûÁÝ…8•©ù²Ä,
+^squid:UselessImportCheck"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8•©ù²Ä,

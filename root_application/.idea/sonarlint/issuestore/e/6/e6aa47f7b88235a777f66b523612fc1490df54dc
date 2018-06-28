@@ -1,0 +1,8 @@
+
+hsquid:S1192"GDefine a constant instead of duplicating this literal "shared" 3 times.(„ºìºÿÿÿÿÿ8·ã¸³Ä,
+Lsquid:S1481"+Remove this unused "button" local variable.(‹ßøüÿÿÿÿ8·ã¸³Ä,
+fsquid:S1192"JDefine a constant instead of duplicating this literal "client_id" 4 times.( ½§Å8·ã¸³Ä,
+gsquid:S1192"FDefine a constant instead of duplicating this literal "token" 4 times.(„ºìºÿÿÿÿÿ8·ã¸³Ä,
+[squid:S1854":Remove this useless assignment to local variable "button".(‹ßøüÿÿÿÿ8·ã¸³Ä,
+[squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8·ã¸³Ä,
+Gsquid:S1612",Replace this lambda with a method reference.(öÑg8·ã¸³Ä,
