@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         if (User.instance.getEmail() == null) {
             fetchUserData();
         }
-        emailText.setText("My email: " + User.instance.getEmail());
+        emailText.setText("My email: " + User.instance.getEmail() + " \nMy Token: " + getSharedPreferences("shared", MODE_PRIVATE).getString("token", ""));
 
         Button giveAccessToClientAppButton = findViewById(R.id.button2);
 
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 .subscribe(response -> {
                     User.instance.setEmail(response.getEmail());
                     User.instance.setToken(getSharedPreferences("shared", MODE_PRIVATE).getString("token", ""));
-                    emailText.setText("My email: " + User.instance.getEmail());
+                    emailText.setText("My email: " + User.instance.getEmail() + " \nMy Token: " + getSharedPreferences("shared", MODE_PRIVATE).getString("token", ""));
                 });
     }
 }
