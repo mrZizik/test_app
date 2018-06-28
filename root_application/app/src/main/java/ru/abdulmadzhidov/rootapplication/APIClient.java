@@ -17,7 +17,7 @@ public class APIClient {
         OkHttpClient client = new OkHttpClient.Builder().build();
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://199.247.30.27:5000")
+                .baseUrl("http://199.247.30.27:5000/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)

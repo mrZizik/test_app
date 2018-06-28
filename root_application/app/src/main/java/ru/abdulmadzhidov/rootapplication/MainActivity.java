@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         clientAccessRequest.setClient_id(getIntent().getStringExtra("client_id"));
         clientAccessRequest.setClient_secret(getIntent().getStringExtra("client_secret"));
         clientAccessRequest.setScope(getIntent().getStringExtra("scope"));
+        clientAccessRequest.setToken(getSharedPreferences("shared", MODE_PRIVATE).getString("token", ""));
 
         getApiInterface().requestAccess(clientAccessRequest)
                 .subscribeOn(Schedulers.io())
