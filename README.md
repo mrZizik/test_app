@@ -10,7 +10,7 @@ return {"client_secret": %your_secret%}
 
 Signs up user and return token to make requests
 ```
-/api/register_client
+/api/signup
 POST {"email": %your_email%, "password": %password%}
 return {"token":%user token%}
 ```
