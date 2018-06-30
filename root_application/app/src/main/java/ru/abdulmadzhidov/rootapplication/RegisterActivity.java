@@ -32,23 +32,10 @@ public class RegisterActivity extends AppCompatActivity {
         signup = findViewById(R.id.button);
 
         if (!getSharedPreferences("shared", MODE_PRIVATE).getString("token", "").isEmpty()
-                && !getSharedPreferences("shared", MODE_PRIVATE).getString("email", "").isEmpty())
-        {
+                && !getSharedPreferences("shared", MODE_PRIVATE).getString("email", "").isEmpty()) {
             Intent i = new Intent(RegisterActivity.this, MainActivity.class);
-
-            if (getIntent().getExtras() != null
-                    && getIntent().getExtras().getString("client_id") != null
-                    && !getIntent().getExtras().getString("client_id").isEmpty()
-                    && !getIntent().getExtras().getString("client_secret").isEmpty()
-                    && !getIntent().getExtras().getString("scope").isEmpty())
-            {
-                i.putExtra("client_id", getIntent().getExtras().getString("client_id"));
-                i.putExtra("client_secret", getIntent().getExtras().getString("client_secret"));
-                i.putExtra("scope", getIntent().getExtras().getString("scope"));
-            }
             startActivity(i);
             finish();
-
         }
 
         RxView.clicks(signup)

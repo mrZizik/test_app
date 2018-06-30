@@ -6,8 +6,6 @@ import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
-import ru.abdulmadzhidov.rootapplication.model.ClientAccessRequest;
-import ru.abdulmadzhidov.rootapplication.model.ClientAccessResponse;
 import ru.abdulmadzhidov.rootapplication.model.User;
 
 public interface APIInterface {
@@ -17,9 +15,5 @@ public interface APIInterface {
 
     @POST("/api/signup")
     Call<User> createUser(@Body User user);
-
-
-    @POST("/api/client_access_request")
-    Observable<ClientAccessResponse> requestAccess(@Body ClientAccessRequest clientAccessRequest);
 
 }

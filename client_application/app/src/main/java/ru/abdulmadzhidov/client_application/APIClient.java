@@ -11,12 +11,13 @@ public class APIClient {
 
     public static APIInterface apiInterface;
 
+    public static String URL = "http://199.247.30.27:5000";
 
     static Retrofit getRetrofit() {
         OkHttpClient client = new OkHttpClient.Builder().build();
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://199.247.30.27:5000")
+                .baseUrl(URL)
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)

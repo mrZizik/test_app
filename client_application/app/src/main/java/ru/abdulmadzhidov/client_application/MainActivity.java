@@ -19,10 +19,8 @@ import static ru.abdulmadzhidov.client_application.APIClient.getApiInterface;
 
 public class MainActivity extends AppCompatActivity {
 
-    String client_id = "test_app";
-    String client_secret = "453977861d23e6e766c26333839492d5eab8442dedccabf27020f377967d8faaac968521b842d912a9ce0d7d60ab6574a728d488392ed8cc6b412b45191a5c26";
-    String token;
     private TextView textView;
+    private String token;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,14 +40,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void requestInfoFromRootApp() {
-        Intent launchIntent = new Intent("ru.abdulmadzhidov.rootapplication.MainActivity");
-        if (launchIntent != null) {
-            launchIntent.putExtra("client_id", client_id);
-            launchIntent.putExtra("client_secret", client_secret);
-            launchIntent.putExtra("scope", "email");
-            launchIntent.setFlags(0);
-            startActivityForResult(launchIntent,200);
-        }
+        Intent intent = new Intent(this, WebViewActivity.class);
+        startActivityForResult(intent, 200);
     }
 
     @Override
